@@ -1,5 +1,5 @@
-module github.com/yassine-flux/student
+module piscine
 
 go 1.25.3
 
-require github.com/01-edu/z01 v0.2.0
+// require github.com/01-edu/z01 v0.2.0

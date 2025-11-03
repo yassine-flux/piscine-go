@@ -1,4 +1,4 @@
-package piscinego
+package piscine
 
 func DivMod(a, b int, div, mod *int) {
 	*div = a / b

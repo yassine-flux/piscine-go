@@ -1,4 +1,4 @@
-package piscinego
+package piscine
 
 func UltimateDivMod(a, b *int) {
 	temp := *a
