@@ -1,4 +1,4 @@
-module piscine
+module github.com/yassine-flux/piscine-go
 
 go 1.25.3
 
