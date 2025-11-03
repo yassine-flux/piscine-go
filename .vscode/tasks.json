@@ -1,0 +1,29 @@
+{
+    "version": "2.0.0",
+    "tasks": [
+        {
+            "label": "Test Current Exercise",
+            "type": "shell",
+            "command": "${workspaceFolder}/../go-tests/test_docker_with_output.sh",
+            "args": [
+                "${fileBasenameNoExtension}",
+                "${relativeFile}",
+                "--allow-builtin",
+                "github.com/01-edu/z01.PrintRune"
+            ],
+            "options": {
+                "cwd": "${workspaceFolder}/../go-tests"
+            },
+            "group": {
+                "kind": "test",
+                "isDefault": true
+            },
+            "presentation": {
+                "echo": true,
+                "reveal": "always",
+                "panel": "shared",
+                "clear": true
+            }
+        }
+    ]
+}
